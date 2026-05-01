@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shaurya Gupta | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a href="#hero" class="brand">Shaurya Gupta</a>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero container reveal">
+      <div class="hero-text">
+        <p class="kicker">Aspiring Developer & Entrepreneur</p>
+        <h1>Shaurya Gupta</h1>
+        <p class="tagline">"Build. Learn. Grow."</p>
+        <button id="exploreBtn" class="btn">Explore My Work</button>
+      </div>
+      <div class="hero-image-wrap">
+        <!-- Put your image at images/profile.jpg -->
+        <img src="images/profile.jpg" alt="Portrait of Shaurya Gupta" class="hero-image" />
+      </div>
+    </section>
+
+    <section class="container quick-grid reveal">
+      <article class="grid-card" data-target="#contact"><h3>Resume</h3><p>Download or request my resume quickly.</p></article>
+      <article class="grid-card" data-target="#skills"><h3>Skills</h3><p>Frontend, tools, and what I’m learning.</p></article>
+      <article class="grid-card" data-target="#projects"><h3>Projects</h3><p>Featured work and real outcomes.</p></article>
+      <article class="grid-card" data-target="#contact"><h3>Achievements</h3><p>Milestones, certifications, and wins.</p></article>
+    </section>
+
+    <section class="container chatbot reveal" id="chatbot">
+      <h2>Ask My Portfolio Bot</h2>
+      <div id="chatOutput" class="chat-output">Hi! Ask me about skills, projects, education, or experience.</div>
+      <div class="chat-controls">
+        <input id="chatInput" type="text" placeholder="Type: skills / education / projects / experience" />
+        <button id="chatSend" class="btn">Send</button>
+      </div>
+    </section>
+
+    <section id="projects" class="container section reveal">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Freelance Landing Page Suite</h3>
+          <p>Built conversion-focused landing pages for local businesses with performance optimization.</p>
+          <span>Tech: HTML, CSS, JavaScript</span>
+        </article>
+        <article class="project-card">
+          <h3>Portfolio Builder Template</h3>
+          <p>Created reusable responsive portfolio templates for students and freelancers.</p>
+          <span>Tech: CSS Grid, Flexbox, Vanilla JS</span>
+        </article>
+        <article class="project-card">
+          <h3>Startup Idea Validator</h3>
+          <p>A simple web app prototype to collect feedback and score startup ideas quickly.</p>
+          <span>Tech: JavaScript, GitHub Pages, Forms API</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="container section reveal">
+      <h2>Skills</h2>
+      <div class="skills-wrap">
+        <div class="skill-box"><h3>Frontend</h3><p>HTML, CSS, JavaScript</p></div>
+        <div class="skill-box"><h3>Tools</h3><p>Git, GitHub</p></div>
+        <div class="skill-box"><h3>Learning</h3><p>AI, Startups</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="container section reveal">
+      <h2>Contact</h2>
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:shaurya@example.com">shaurya@example.com</a></li>
+        <li>LinkedIn: <a href="#" target="_blank" rel="noreferrer">linkedin.com/in/your-profile</a></li>
+        <li>GitHub: <a href="#" target="_blank" rel="noreferrer">github.com/your-username</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
